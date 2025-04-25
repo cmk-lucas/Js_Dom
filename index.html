@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'Histoire de l'Homme</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 50px 20px;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #4CAF50;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .btn-js, .btn-ajouter {
+            display: inline-block;
+            background-color: #007BFF ;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+
+        .btn-js:hover, .btn-ajouter:hover {
+            background-color: #45a049;
+        }
+
+        .btn-ajouter {
+            background-color: #007BFF;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .btn-ajouter:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header id="red">
+        <div class="container">
+            <h1>L'Histoire de l'Homme</h1>
+            <nav>
+                <ul>
+                    <li><a href="#prehistoire">Préhistoire</a></li>
+                    <li><a href="#antiquite">Antiquité</a></li>
+                    <li><a href="#moyen-age">Moyen Âge</a></li>
+                    <li><a href="#epoque-moderne">Époque Moderne</a></li>
+                    <li><a href="#contemporain">Période Contemporaine</a></li>
+                </ul>
+            </nav>
+            <!-- Les boutons sont ici dans le header -->
+            <a href="#" class="btn-ajouter">Ajouter une nouvelle section</a>
+            <a href="#" class="btn-js">Clique-moi JS</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="prehistoire">
+            <h2>Préhistoire</h2>
+            <p>La préhistoire correspond à la période de l'histoire de l'humanité qui s'étend depuis l'apparition des premiers hominidés jusqu'à l'invention de l'écriture.</p>
+            <p>Elle est caractérisée par l'évolution de l'homme, l'utilisation d'outils en pierre, et le développement des premières formes de vie sociale et artistique.</p>
+        </section>
+
+        <section id="antiquite">
+            <h2>Antiquité</h2>
+            <p>L'Antiquité fait référence à la période de l'histoire qui va de l'invention de l'écriture jusqu'à la chute de l'Empire romain d'Occident.</p>
+            <p>Cette époque a vu l'émergence des grandes civilisations comme celles de l'Égypte, la Grèce, et Rome, marquées par des progrès dans les domaines des arts, des sciences, et de la politique.</p>
+        </section>
+
+        <section id="moyen-age">
+            <h2>Moyen Âge</h2>
+            <p>Le Moyen Âge s'étend de la chute de l'Empire romain à la Renaissance. Cette période est marquée par la domination de l'Église catholique, les croisades, et la naissance de nombreuses monarchies.</p>
+        </section>
+    </main>
+</body>
+</html>
