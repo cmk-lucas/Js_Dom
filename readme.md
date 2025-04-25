@@ -41,3 +41,20 @@ Lorsque l'utilisateur clique sur le bouton "Clique-moi JS", vous devez changer l
 ### 4. **Commentaires et Bonne Pratique** :
 - N'oubliez pas de commenter votre code JavaScript pour expliquer ce que chaque partie fait.
 - Utilisez des noms de variables et de fonctions clairs et explicites.
+
+## Ressources Utiles
+- [MDN Web Docs - Manipuler le DOM](https://developer.mozilla.org/fr/docs/Web/API/Document_object_model)
+- [JavaScript Guide (MDN)](https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide)
+
+## Remarques
+- N'hésitez pas à poser des questions si vous avez des doutes ou des difficultés.
+- Assurez-vous de tester votre travail dans différents navigateurs pour vérifier sa compatibilité.
+
+## Soumission
+Une fois le projet terminé, soumettez votre fichier `index.html` ainsi que votre fichier `style.css` (si modifié) sur votre dépôt GitHub.
+
+### Étapes pour soumettre :
+1. Ouvrez votre projet localement.
+2. Effectuez les modifications nécessaires en JavaScript.
+3. Poussez vos fichiers (`index.html` et `style.css`) sur votre dépôt GitHub.
+4. Assurez-vous que les deux fichiers sont correctement ajoutés et visibles sur votre repository GitHub.
